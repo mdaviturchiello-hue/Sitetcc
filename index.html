@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Davi.css">
+
+    <title>DaviT31</title>
+
+</head>
+
+<body>
+
+    <nav id="header">
+
+
+
+
+           <li> <a href="index.html"  > Home </a> </li>
+			
+		
+
+        <ul>
+
+			
+				<li> <a href="#id2"  > Futebol Americano </a> </li>
+					 
+					<li> <a href="#id3" > Futebol </a> </li>
+						
+						<li> <a href="#id4"> Basquete </a> </li>
+			
+							<li> <a href="#id5"> Beisebol </a> </li>
+					
+								<li> <a href="#id6"> Golfe </a> </li>
+									
+									<li> <a href="#id7"> Hóquei </a> </li>
+									
+									<li> <a href="Tecnologia.html"> O uso da tecnologia no esporte </a> </li>
+          
+          
+
+        </ul>
+
+    </nav>
+
+    <section id="id1" class="banner">
+
+        <div class="texto">
+
+           <h2 class="sub_titulo">TECNOLOGIAS NO ESPORTE </h2>
+		   
+
+          
+
+        </div>
+
+    </section>
+	<section id="id2" class="banner1">
+
+        <div class="texto">
+
+           <h1 class="titulo"> Futebol Americano</h1>
+			
+  		  
+		    <h5 class="sub_titulo1">Descubra mais sobre este esporte! </h5><br></br>
+		   
+		  <a href="https://www.atletis.com.br/regras-futebol-americano" target="_blank">
+		  
+              <button class="botaoverde">Saiba Mais</button>
+              </a>
+
+ 
+
+        </div>
+
+    </section>
+	
+	<section id="id3" class="banner2">
+
+        <div class="texto">
+
+           <h1 class="titulo"> Futebol </h1>
+		   
+		    <h5 class="sub_titulo1">Descubra mais sobre este esporte </h5><br></br>
+			
+			 <a href="https://www.cbf.com.br/a-cbf/arbitragem/aplicacao-regra-diretrizes-fifa" target="_blank">
+		  
+              <button class="botaoverde">Saiba Mais</button>
+              </a>
+
+        </div>
+
+    </section>
+	
+	<section id="id4" class="banner3">
+
+        <div class="texto">
+
+           <h1 class="titulo">Basquete </h1>
+		
+		    <h5 class="sub_titulo1">Descubra mais sobre este esporte </h5><br></br>
+		   
+		    <a href="https://www.todamateria.com.br/regras-do-basquete/" target="_blank">
+		  
+              <button class="botaoverde">Saiba Mais</button>
+              </a>
+
+ 
+
+        </div>
+
+    </section>
+	
+	<section id="id5" class="banner4">
+
+        <div class="texto">
+
+           <h1 class="titulo">Beisebol </h1>
+			
+		    <h5 class="sub_titulo1">Descubra mais sobre este esporte </h5><br></br>
+			
+			 <a href="https://casadobeisebol.com.br/regras/" target="_blank">
+			
+			 <button class="botaoverde">Saiba Mais</button>
+              </a>
+
+
+        
+
+        </div>
+
+    </section>
+	
+	<section id="id6" class="banner5">
+
+        <div class="texto">
+
+           <h1 class="titulo">Golfe</h1>
+
+		   <h5 class="sub_titulo1">Descubra mais sobre este esporte </h5><br></br>
+		   
+		    <a href="https://stampagramas.com.br/regras-do-golfe/" target="_blank">
+		   
+		    <button class="botaoverde">Saiba Mais</button>
+              </a>
+
+
+     
+
+        </div>
+
+    </section>
+	
+	<section id="id7" class="banner6">
+
+        <div class="texto">
+
+           <h1 class="titulo">Hóquei</h1>
+
+		   <h5 class="sub_titulo1">Descubra mais sobre este esporte </h5><br></br>
+		   
+		    <a href="https://www.nhlbrasil.com.br/iniciantes/" target="_blank">
+		   
+		    <button class="botaoverde">Saiba Mais</button>
+              </a>
+
+
+     
+
+        </div>
+
+    </section>
+
+
+
+</body>
+	<script>
+		const header = document.geElementById("header");
+		
+		const observer = new IntersectionObserver(
+			(entries) =>{
+			entries.forEach(entr => {
+			if (entry.isIntersecting) {
+				header.style.background-color = "black";
+				}
+			else {
+			header.style.background-color = "#4f6d1e";
+			}
+			});
+		},
+		{ threshold: 0.6}
+		);
+		
+		observer.observe(document.getElementByiId("id6"));
+	</script>
+       
+</html>
