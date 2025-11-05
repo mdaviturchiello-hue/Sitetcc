@@ -248,6 +248,41 @@ nav li a:hover{
 	nav: color white;
 
 }
+.banner7{
+	  height: 100vh;
+
+    background-image: url(campo.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+	
+	nav: color white;
+	
+	
+	
+}
+
+.texto {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 15px;
+	width: 70%;
+	border-radius: 18PX;
+	
+}
+
+
+
 .texto .titulo{
 
     color: #fff;
@@ -275,6 +310,10 @@ nav li a:hover{
     font-size: 28px;
 
     font-weight: 600;
+	
+	justify-content: center;
+
+	text-align: justify;
 
 }
 
